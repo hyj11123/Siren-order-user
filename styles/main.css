@@ -1,0 +1,46 @@
+.main {
+    width: 100%;
+}
+
+.main .m_content1 .m_ad a {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-bottom: 1px solid #727272;
+}
+
+.main .m_content2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.main .m_content2 .top,
+.main .m_content2 .bottom {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.main .m_content2 .top .t_coupon,
+.main .m_content2 .top .t_news,
+.main .m_content2 .bottom .b_hold,
+.main .m_content2 .bottom .b_order {
+    width: 50%;
+}
+
+.main .m_content2 .top .t_coupon a,
+.main .m_content2 .top .t_news a,
+.main .m_content2 .bottom .b_hold a,
+.main .m_content2 .bottom .b_order a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 181px;
+    font-size: 600;
+}
